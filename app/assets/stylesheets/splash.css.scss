@@ -1,0 +1,75 @@
+//-----------------------------------------
+// Fonts
+//-----------------------------------------
+
+
+//-----------------------------------------
+// Variables, customize bootstrap here
+//-----------------------------------------
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+$headings-font-family: 'Open Sans';
+
+$navbar-height: 75px;
+
+$navbar-default-bg: rgba(255,255,255,.5);
+$navbar-inverse-bg: rgba(0,0,0,.9);
+
+
+// Color Palate
+$brand-primary: #9CCC00;
+
+
+//-----------------------------------------
+// Bootstrap
+//-----------------------------------------
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+
+//-----------------------------------------
+// Media Queries
+//-----------------------------------------
+
+$screen-lg-min: 1200px;
+$screen-md-min: 992px;
+$screen-sm-min: 768px;
+
+
+//-----------------------------------------
+// Rules
+//-----------------------------------------
+
+body {
+  margin-top: $navbar-height;
+  position: relative;
+}
+
+.navbar li.active {
+  border-bottom: 2px solid $brand-primary;
+}
+
+.navbar-inverse a.navbar-brand {
+  color: $brand-primary;
+}
+
+//-----------------------------------------
+// About Me
+//-----------------------------------------
+
+p {
+	margin-top: 15px;
+}
+
+.jumbotron {
+	background-color: #ECF0F1;
+}
+
+.img-responsive {
+	display: inline-block;
+}
+
+#svg-image-blur {
+  display: none;
+}//removes extra space after footer generated on PC
