@@ -17,7 +17,7 @@ $navbar-inverse-bg: rgba(0,0,0,.9);
 
 
 // Color Palate
-$brand-primary: #9CCC00;
+$brand-primary: #59ABE3;
 
 
 //-----------------------------------------
@@ -42,8 +42,9 @@ $screen-sm-min: 768px;
 //-----------------------------------------
 
 body {
-  margin-top: $navbar-height;
-  position: relative;
+ 	margin-top: $navbar-height;
+ 	position: relative;
+	background: image-url('binary_bg.jpg') no-repeat center; 
 }
 
 .navbar li.active {
@@ -60,10 +61,20 @@ body {
 
 p {
 	margin-top: 15px;
+	font-size: 16pt;
 }
 
-.jumbotron {
-	background-color: #ECF0F1;
+h1 {
+	margin-top: 30px;
+	font-size: 22pt;
+}
+
+.profile-pic {
+	margin-top: 20px;
+}
+
+.panel {
+	@media(min-width: $screen-lg-min) {	margin-top: 100px; }
 }
 
 .img-responsive {
